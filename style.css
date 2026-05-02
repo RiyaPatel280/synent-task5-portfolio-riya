@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0f0f12;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* App */
+.app {
+    background: #18181c;
+    padding: 35px;
+    border-radius: 16px;
+    width: 380px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+/* Input */
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #222;
+    color: #fff;
+}
+
+button {
+    background: #6F2DA8;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Tasks */
+ul {
+    list-style: none;
+}
+
+/* Task Item */
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #222;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+}
+
+li:hover {
+    background: #292929;
+}
+
+/* Left side */
+.task-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Checkbox */
+.checkbox {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #6F2DA8;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.completed .checkbox {
+    background: #6F2DA8;
+}
+
+/* Text */
+.task-text {
+    font-size: 0.95rem;
+}
+
+/* Completed */
+.completed .task-text {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+/* Delete icon */
+.delete {
+    font-size: 14px;
+    cursor: pointer;
+    color: #bbb;
+    transition: 0.2s;
+}
+
+.delete:hover {
+    color: #ff4d4d;
+}
