@@ -23,8 +23,11 @@ This project allows users to manage daily tasks efficiently with persistent stor
 ##  Project Structure
 
 index.html
+
 style.css
+
 script.js
+
 README.md
 
 
