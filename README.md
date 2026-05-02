@@ -3,6 +3,8 @@
 A modern and responsive task management web application built using HTML, CSS, and JavaScript.  
 This project allows users to manage daily tasks efficiently with persistent storage using localStorage.
 
+##  Live Demo
+https://riya-todo-app.netlify.app
 
 ##  Features
 
